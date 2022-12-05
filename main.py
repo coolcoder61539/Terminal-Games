@@ -1,4 +1,4 @@
-from mastermind.mastermind import Mastermind
+from games.mastermind.mastermind import Mastermind
 
 game = Mastermind()
 game.start_game()

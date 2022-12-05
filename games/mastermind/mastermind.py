@@ -4,7 +4,7 @@ import sys
 from colorama import Fore
 
 
-#TODO Game end system
+#TODO Game end system and .gitignore
 
 class Mastermind():
     def __init__(self):
