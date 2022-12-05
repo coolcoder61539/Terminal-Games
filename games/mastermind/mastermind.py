@@ -4,7 +4,7 @@ import sys
 from colorama import Fore
 
 
-#TODO Game end system and .gitignore
+#TODO Game end system
 
 class Mastermind():
     def __init__(self):
@@ -192,6 +192,11 @@ class Mastermind():
                 print("Program ended by user input")
                 print("------------------------")
                 sys.exit(0)
+        if code == 1:
+            print("------------------------")
+            print("Game Over")
+            print("You win!!!")
+            print()
                 
 
 
